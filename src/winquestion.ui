@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WinQuestion</class>
+ <widget class="QDialog" name="WinQuestion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>518</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MedicTesting</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/icons/IconProgram.png</normaloff>:/icons/IconProgram.png</iconset>
+  </property>
+  <widget class="QPushButton" name="winQuestBtnEnd">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>450</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Закончить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="winQuestLabelTitleQuest">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>701</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Для начала нажмите кнопку Далее&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="winQuestGroupBoxMulti">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>771</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QCheckBox" name="winQuestCheckBoxQuest1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>751</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CheckBox</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="winQuestCheckBoxQuest2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>751</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CheckBox</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="winQuestCheckBoxQuest3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>751</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CheckBox</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="winQuestCheckBoxQuest4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>751</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CheckBox</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="winQuestGroupBoxSingle">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>771</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="winQuestRadioButtonQuest1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>751</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RadioButton</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="winQuestRadioButtonQuest2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>751</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RadioButton</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="winQuestRadioButtonQuest3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>751</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RadioButton</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="winQuestRadioButtonQuest4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>751</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RadioButton</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="winQuestBtnNext">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>450</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Далее</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="winQuestLabelOptionalInfo">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;(один вариант ответа)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="winQuestLabelOkErrorLable">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>471</y>
+     <width>110</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Предыдущий вопрос:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="winQuestLabelOkError">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>471</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="winQuestBtnExit">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>450</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>winQuestBtnNext</tabstop>
+  <tabstop>winQuestBtnEnd</tabstop>
+  <tabstop>winQuestBtnExit</tabstop>
+  <tabstop>winQuestCheckBoxQuest1</tabstop>
+  <tabstop>winQuestCheckBoxQuest2</tabstop>
+  <tabstop>winQuestCheckBoxQuest3</tabstop>
+  <tabstop>winQuestCheckBoxQuest4</tabstop>
+  <tabstop>winQuestRadioButtonQuest1</tabstop>
+  <tabstop>winQuestRadioButtonQuest2</tabstop>
+  <tabstop>winQuestRadioButtonQuest3</tabstop>
+  <tabstop>winQuestRadioButtonQuest4</tabstop>
+ </tabstops>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
